@@ -1,0 +1,133 @@
+[07-Aug-2019 07:52:07 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<' in /home/binaryas/public_html/script.php on line 2219
+[07-Aug-2019 07:52:11 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<' in /home/binaryas/public_html/script.php on line 2219
+[07-Aug-2019 07:52:20 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<' in /home/binaryas/public_html/script.php on line 2219
+[08-Aug-2019 02:22:40 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'SendGrid\Mail\TypeException' with message '$emailAddress must be valid and of type string.' in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php:76
+Stack trace:
+#0 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php(51): SendGrid\Mail\EmailAddress->setEmailAddress('Scottjimmy693')
+#1 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(202): SendGrid\Mail\EmailAddress->__construct('Scottjimmy693', 'Charles', NULL)
+#2 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(363): SendGrid\Mail\Mail->addRecipientEmail('To', 'Scottjimmy693', 'Charles', NULL, NULL, NULL)
+#3 /home/binaryas/public_html/script.php(1219): SendGrid\Mail\Mail->addTo('Scottjimmy693', 'Charles')
+#4 /home/binaryas/public_html/script.php(1181): topspin->ssd('CUS_3359401', '100', 'Bitcoin /none', 'Scottjimmy693', 'Charles')
+#5 /home/binaryas/public_html/customer/with.php(10): topspin->withdrawal()
+#6 {main}
+  thrown in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php on line 76
+[08-Aug-2019 02:24:46 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'SendGrid\Mail\TypeException' with message '$emailAddress must be valid and of type string.' in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php:76
+Stack trace:
+#0 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php(51): SendGrid\Mail\EmailAddress->setEmailAddress('Scottjimmy693')
+#1 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(202): SendGrid\Mail\EmailAddress->__construct('Scottjimmy693', 'Charles', NULL)
+#2 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(363): SendGrid\Mail\Mail->addRecipientEmail('To', 'Scottjimmy693', 'Charles', NULL, NULL, NULL)
+#3 /home/binaryas/public_html/script.php(1219): SendGrid\Mail\Mail->addTo('Scottjimmy693', 'Charles')
+#4 /home/binaryas/public_html/script.php(1181): topspin->ssd('CUS_3359401', '100', 'Bitcoin /none', 'Scottjimmy693', 'Charles')
+#5 /home/binaryas/public_html/customer/with.php(10): topspin->withdrawal()
+#6 {main}
+  thrown in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php on line 76
+[08-Aug-2019 02:26:03 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'SendGrid\Mail\TypeException' with message '$emailAddress must be valid and of type string.' in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php:76
+Stack trace:
+#0 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php(51): SendGrid\Mail\EmailAddress->setEmailAddress('Scottjimmy693')
+#1 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(202): SendGrid\Mail\EmailAddress->__construct('Scottjimmy693', 'Charles', NULL)
+#2 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(363): SendGrid\Mail\Mail->addRecipientEmail('To', 'Scottjimmy693', 'Charles', NULL, NULL, NULL)
+#3 /home/binaryas/public_html/script.php(1219): SendGrid\Mail\Mail->addTo('Scottjimmy693', 'Charles')
+#4 /home/binaryas/public_html/script.php(1181): topspin->ssd('CUS_3359401', '100', 'Bitcoin /none', 'Scottjimmy693', 'Charles')
+#5 /home/binaryas/public_html/customer/with.php(10): topspin->withdrawal()
+#6 {main}
+  thrown in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php on line 76
+[08-Aug-2019 02:28:33 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'SendGrid\Mail\TypeException' with message '$emailAddress must be valid and of type string.' in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php:76
+Stack trace:
+#0 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php(51): SendGrid\Mail\EmailAddress->setEmailAddress('Scottjimmy693')
+#1 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(202): SendGrid\Mail\EmailAddress->__construct('Scottjimmy693', 'Charles', NULL)
+#2 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(363): SendGrid\Mail\Mail->addRecipientEmail('To', 'Scottjimmy693', 'Charles', NULL, NULL, NULL)
+#3 /home/binaryas/public_html/script.php(1219): SendGrid\Mail\Mail->addTo('Scottjimmy693', 'Charles')
+#4 /home/binaryas/public_html/script.php(1181): topspin->ssd('CUS_3359401', '100', 'Bitcoin /none', 'Scottjimmy693', 'Charles')
+#5 /home/binaryas/public_html/customer/with.php(10): topspin->withdrawal()
+#6 {main}
+  thrown in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php on line 76
+[08-Aug-2019 02:36:17 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'SendGrid\Mail\TypeException' with message '$emailAddress must be valid and of type string.' in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php:76
+Stack trace:
+#0 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php(51): SendGrid\Mail\EmailAddress->setEmailAddress('Scottjimmy693')
+#1 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(202): SendGrid\Mail\EmailAddress->__construct('Scottjimmy693', 'Charles', NULL)
+#2 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(363): SendGrid\Mail\Mail->addRecipientEmail('To', 'Scottjimmy693', 'Charles', NULL, NULL, NULL)
+#3 /home/binaryas/public_html/script.php(1219): SendGrid\Mail\Mail->addTo('Scottjimmy693', 'Charles')
+#4 /home/binaryas/public_html/script.php(1181): topspin->ssd('CUS_3359401', '100', 'Bitcoin /none', 'Scottjimmy693', 'Charles')
+#5 /home/binaryas/public_html/customer/with.php(10): topspin->withdrawal()
+#6 {main}
+  thrown in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php on line 76
+[08-Aug-2019 13:54:14 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'SendGrid\Mail\TypeException' with message '$emailAddress must be valid and of type string.' in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php:76
+Stack trace:
+#0 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php(51): SendGrid\Mail\EmailAddress->setEmailAddress('Scottjimmy693')
+#1 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(202): SendGrid\Mail\EmailAddress->__construct('Scottjimmy693', 'Charles', NULL)
+#2 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(363): SendGrid\Mail\Mail->addRecipientEmail('To', 'Scottjimmy693', 'Charles', NULL, NULL, NULL)
+#3 /home/binaryas/public_html/script.php(1219): SendGrid\Mail\Mail->addTo('Scottjimmy693', 'Charles')
+#4 /home/binaryas/public_html/script.php(1181): topspin->ssd('CUS_3359401', '100', 'Bitcoin /none', 'Scottjimmy693', 'Charles')
+#5 /home/binaryas/public_html/customer/with.php(10): topspin->withdrawal()
+#6 {main}
+  thrown in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php on line 76
+[15-Aug-2019 03:47:53 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'SendGrid\Mail\TypeException' with message '$emailAddress must be valid and of type string.' in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php:76
+Stack trace:
+#0 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php(51): SendGrid\Mail\EmailAddress->setEmailAddress('Robertfrank851')
+#1 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(202): SendGrid\Mail\EmailAddress->__construct('Robertfrank851', 'Frankrobert', NULL)
+#2 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(363): SendGrid\Mail\Mail->addRecipientEmail('To', 'Robertfrank851', 'Frankrobert', NULL, NULL, NULL)
+#3 /home/binaryas/public_html/script.php(1219): SendGrid\Mail\Mail->addTo('Robertfrank851', 'Frankrobert')
+#4 /home/binaryas/public_html/script.php(1181): topspin->ssd('CUS_2330336', '500', 'Bitcoin /none', 'Robertfrank851', 'Frankrobert')
+#5 /home/binaryas/public_html/customer/with.php(10): topspin->withdrawal()
+#6 {main}
+  thrown in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php on line 76
+[15-Aug-2019 03:48:04 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'SendGrid\Mail\TypeException' with message '$emailAddress must be valid and of type string.' in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php:76
+Stack trace:
+#0 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php(51): SendGrid\Mail\EmailAddress->setEmailAddress('Robertfrank851')
+#1 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(202): SendGrid\Mail\EmailAddress->__construct('Robertfrank851', 'Frankrobert', NULL)
+#2 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(363): SendGrid\Mail\Mail->addRecipientEmail('To', 'Robertfrank851', 'Frankrobert', NULL, NULL, NULL)
+#3 /home/binaryas/public_html/script.php(1219): SendGrid\Mail\Mail->addTo('Robertfrank851', 'Frankrobert')
+#4 /home/binaryas/public_html/script.php(1181): topspin->ssd('CUS_2330336', '500', 'Bitcoin /none', 'Robertfrank851', 'Frankrobert')
+#5 /home/binaryas/public_html/customer/with.php(10): topspin->withdrawal()
+#6 {main}
+  thrown in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php on line 76
+[15-Aug-2019 03:54:39 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'SendGrid\Mail\TypeException' with message '$emailAddress must be valid and of type string.' in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php:76
+Stack trace:
+#0 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php(51): SendGrid\Mail\EmailAddress->setEmailAddress('Robertfrank851')
+#1 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(202): SendGrid\Mail\EmailAddress->__construct('Robertfrank851', 'Frankrobert', NULL)
+#2 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(363): SendGrid\Mail\Mail->addRecipientEmail('To', 'Robertfrank851', 'Frankrobert', NULL, NULL, NULL)
+#3 /home/binaryas/public_html/script.php(1219): SendGrid\Mail\Mail->addTo('Robertfrank851', 'Frankrobert')
+#4 /home/binaryas/public_html/script.php(1181): topspin->ssd('CUS_2330336', '500', 'Perfect Money /...', 'Robertfrank851', 'Frankrobert')
+#5 /home/binaryas/public_html/customer/with.php(10): topspin->withdrawal()
+#6 {main}
+  thr in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php on line 76
+[15-Aug-2019 03:54:58 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'SendGrid\Mail\TypeException' with message '$emailAddress must be valid and of type string.' in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php:76
+Stack trace:
+#0 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php(51): SendGrid\Mail\EmailAddress->setEmailAddress('Robertfrank851')
+#1 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(202): SendGrid\Mail\EmailAddress->__construct('Robertfrank851', 'Frankrobert', NULL)
+#2 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(363): SendGrid\Mail\Mail->addRecipientEmail('To', 'Robertfrank851', 'Frankrobert', NULL, NULL, NULL)
+#3 /home/binaryas/public_html/script.php(1219): SendGrid\Mail\Mail->addTo('Robertfrank851', 'Frankrobert')
+#4 /home/binaryas/public_html/script.php(1181): topspin->ssd('CUS_2330336', '500', 'Perfect Money /...', 'Robertfrank851', 'Frankrobert')
+#5 /home/binaryas/public_html/customer/with.php(10): topspin->withdrawal()
+#6 {main}
+  thr in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php on line 76
+[15-Aug-2019 12:13:43 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'SendGrid\Mail\TypeException' with message '$emailAddress must be valid and of type string.' in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php:76
+Stack trace:
+#0 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php(51): SendGrid\Mail\EmailAddress->setEmailAddress('Robertfrank851')
+#1 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(202): SendGrid\Mail\EmailAddress->__construct('Robertfrank851', 'Frankrobert', NULL)
+#2 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(363): SendGrid\Mail\Mail->addRecipientEmail('To', 'Robertfrank851', 'Frankrobert', NULL, NULL, NULL)
+#3 /home/binaryas/public_html/script.php(1219): SendGrid\Mail\Mail->addTo('Robertfrank851', 'Frankrobert')
+#4 /home/binaryas/public_html/script.php(1181): topspin->ssd('CUS_2330336', '500', 'Bitcoin /none', 'Robertfrank851', 'Frankrobert')
+#5 /home/binaryas/public_html/customer/with.php(10): topspin->withdrawal()
+#6 {main}
+  thrown in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php on line 76
+[15-Aug-2019 12:14:01 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'SendGrid\Mail\TypeException' with message '$emailAddress must be valid and of type string.' in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php:76
+Stack trace:
+#0 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php(51): SendGrid\Mail\EmailAddress->setEmailAddress('Robertfrank851')
+#1 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(202): SendGrid\Mail\EmailAddress->__construct('Robertfrank851', 'Frankrobert', NULL)
+#2 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(363): SendGrid\Mail\Mail->addRecipientEmail('To', 'Robertfrank851', 'Frankrobert', NULL, NULL, NULL)
+#3 /home/binaryas/public_html/script.php(1219): SendGrid\Mail\Mail->addTo('Robertfrank851', 'Frankrobert')
+#4 /home/binaryas/public_html/script.php(1181): topspin->ssd('CUS_2330336', '500', 'Bitcoin /none', 'Robertfrank851', 'Frankrobert')
+#5 /home/binaryas/public_html/customer/with.php(10): topspin->withdrawal()
+#6 {main}
+  thrown in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php on line 76
+[16-Aug-2019 16:08:06 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'SendGrid\Mail\TypeException' with message '$emailAddress must be valid and of type string.' in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php:76
+Stack trace:
+#0 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php(51): SendGrid\Mail\EmailAddress->setEmailAddress('Robertfrank851')
+#1 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(202): SendGrid\Mail\EmailAddress->__construct('Robertfrank851', 'Frankrobert', NULL)
+#2 /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/Mail.php(363): SendGrid\Mail\Mail->addRecipientEmail('To', 'Robertfrank851', 'Frankrobert', NULL, NULL, NULL)
+#3 /home/binaryas/public_html/script.php(1219): SendGrid\Mail\Mail->addTo('Robertfrank851', 'Frankrobert')
+#4 /home/binaryas/public_html/script.php(1181): topspin->ssd('CUS_2330336', '600', 'Bitcoin /none', 'Robertfrank851', 'Frankrobert')
+#5 /home/binaryas/public_html/customer/with.php(10): topspin->withdrawal()
+#6 {main}
+  thrown in /home/binaryas/public_html/vendor/sendgrid/sendgrid/lib/mail/EmailAddress.php on line 76

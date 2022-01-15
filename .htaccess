@@ -1,0 +1,7 @@
+#Turn rewite Engine on
+RewriteEngine on
+#remove .php from all files
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteRule ^new_pass/([0-9a-zA-Z_-]+)/([0-9a-zA-Z_-]+) new_pass.php?ss=$1&vl=$2 [NC,L] #for new password
